@@ -20,10 +20,10 @@
 +(void)downloadFileWithUrlString:(NSString *)urlStr andProgress:(ProgressBlock)pBlock  andSuccess:(DownloadBlock)downBlock;
 ```
 ####5.断点续传
+
 #####5.1 开始下载
 ```
 +(SessionHttpRequest *)startDownloadFileWithUrlString:(NSString *)urlStr andProgress:(ProgressBlock)pBlock  andSuccess:(DownloadBlock)downBlock;
-
 ```
 #####5.2 暂停
 ```
